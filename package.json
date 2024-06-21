@@ -2,7 +2,7 @@
   "name": "stcw-suggestions",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jaiswal1978.github.io/sctw_suggestion_form/",
+  "homepage": "https://github.com/jaiswal1978/stcw_suggestions/",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
