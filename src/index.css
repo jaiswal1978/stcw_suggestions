@@ -31,7 +31,7 @@ code {
 
 @keyframes growShrink {
   0%, 100% {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   50% {
     transform: scale(1.2);
@@ -39,5 +39,5 @@ code {
 }
 
 .grow-shrink {
-  animation: growShrink 4s infinite;
+  animation: growShrink 10s infinite;
 }

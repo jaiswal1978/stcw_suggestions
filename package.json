@@ -2,7 +2,7 @@
   "name": "stcw-suggestions",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jaiswal1978/stcw_suggestions/",
+  "homepage": "https://jaiswal1978.github.io/stcw_suggestions",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
@@ -11,7 +11,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "form-data": "^4.0.0",
-    "gh-pages": "^6.1.1",
     "mailgun-js": "^0.22.0",
     "mailgun.js": "^10.2.1",
     "react": "^18.3.1",
@@ -21,12 +20,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4"
   }
 }
